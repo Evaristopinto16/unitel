@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YetuShort</title>
+    <link rel="stylesheet" href="cone.css">
+</head>
+<body>
+    <script>
+        function minhaFuncao(){
+            var valor = document.getElementById('valor').value;
+            
+            document.getElementById('resultado').innerHTML =valor;
+        }
+    </script>
+
+
+
+
+
+
+
+     <div class="container">
+        <div class="logo">
+            <h2>YetuShort</h2>
+        </div>
+        <div>
+            <div class="titulo"> 
+                <h3>Metodo de pagamento</h3>
+            </div>
+            <div class="Contribuir">
+                <dd>Contribuir com</dd>
+                <input type="number" placeholder="0,00" id="valor">
+                    <l>Kz</l>
+            </div>
+            
+            <div class="button">
+                <button onclick="minhaFuncao()"class="money" id="unitelMoney">Contribuir com Unitel Money</button>
+                <button>Contribuir com cartão de Débito ou Credito</button>
+
+            </div>
+        </div>
+
+     </div>
+     <div id="resultado"> </div>
+     <div class="retornar">
+        <a href="home.html">Cancelar e Retornar à YetuShort</a>
+     </div>
+      
+
+     <footer >
+        <ul>
+            <a><li>Ajuda e Contacto</li></a>
+            <a><li>Segurança</li></a>
+            <a href="aprentacao.html"><li>Denunciar conteudo improprio</li></a>
+        </ul>
+     </footer>
+</body>
+</html>

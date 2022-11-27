@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YetuShort</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <script>
+        function menuShow(){
+    let menuMobile =document.querySelector('.mobile-menu');
+    if(menuMobile.classList.contains('open') ){
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src="menu_white_36dp.svg";
+    }else{
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src="close_white_36dp.svg"
+    }
+        }
+    </script>
+      <script>
+        function seguir(){
+    let seguir =document.querySelector('.fellow_btn');
+    if(seguir.classList.contains('open') ){
+       document.querySelector('.fellow');
+    }else{
+        menuMobile.classList.add('open');
+        document.querySelector('.fellow');
+    }
+        }
+    </script>
+      
+     <nav>
+        
+        <div class="nav_content">
+            <h1 class="logo">
+                <i class="fab fa-yetushort"></i>
+                YetuShort
+            </h1>
+            <form class="form">
+                <input class="search" name="pesquisar" id="search_field" placeholder="search">
+                <i><button  class="pesquisar" >pesquisar</button> </i>
+            </form>
+            <div class="nav_btns">
+                 <div class="menufront">
+                    <div class="mobile-menu">
+                        <ul>
+                            <a class="nav-item" href="login.html">sair</a>
+                            <a class="nav-item" href="aprentacao.html">sobre</a>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="comp">
+                   <a href="aprentacao.html"> <button class="upload_btn" href="aprentacao.html">Sobre nos</button></a>
+                    <button class="login_btn" onclick="alert('É um projecto demo do final do curso unitel code web')">Sair</button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg"></button>
+                </div>
+                <div class  ="dots_btn">
+                    <i class="fas">💬</i>
+                    <div class="dots_info">
+                        <a class="#">
+                            <i class="fas fa-font">
+                                <h6>Laurindo Fulai</h6>
+                                <P> Oi, tudo bem? não sei como está sua vida financeira no momento, mas creio que você gostaria de ter uma renda extra
+                                    ou até mesmo uma renda principal através da internet, correto?
+                                    Então não perca tempo
+                                    mi puxa</P>
+                                <h6>Bunga Wendoi</h6>
+                                <P>Sou um digital fluencer há 5 anos, nunca pensei que ganharia tanto dinheiro gravando video, mas graças a YetuShort consegui comprar uma casa com dinheiro da internet</P>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+     </nav>
+    
+    <div class="sidebar">
+        <div class="menu">
+            <div class="mside"> 
+                <a href="#contribuir" class="menu_link">
+                    <i class="fas fa-home">🎼</i>  
+                </a>
+                <a href="#compra" class="menu_link">
+                    <i class="fa-friend">🏛</i> 
+                </a>
+                <a href="#live" class="menu_link">
+                    <i class="fa-video">🎬</i> 
+                </a>
+            </div>
+            <div class="elin">
+                <a href="#contribuir" class="menu_link">
+                    <i  class="fas fa-home">🎼</i> Entretenimento
+                </a>
+                <a href="#compra" class="menu_link">
+                <i class="fa-friend">🏛</i> Corporativo
+                </a>
+                <a href="#live" class="menu_link">
+                <i class="fa-video">🎬</i> Live
+            </a>
+
+            </div>
+            <div class="login_area">
+            <P>YetuShort uma plataforma  que proporciona aos seus usuaria a opurtunidade de fazerem  dinheiro com a internet.
+                <br> contas Corporativa podem vender produtos livremente e contas normais podem ganhar dinheiro consuante aos seus conteudos criativo
+                <br>
+                
+            </P>
+               <a href="login.html"><button class="main_login">
+                 logado
+                </button>
+                </a>
+            </div>
+            <div class="suggested">
+                <h3>Sugestões</h3>
+                <div class="suggested_container">
+                    <a href="#" class="suggestion">
+                        <div class="suggested_pic" style="background-image: url(img/photo.jpg);">
+                        </div>
+                        <div class="suggested_info"> 
+                        <h3>Maria12</h3>
+                        <small>Maria Tambo</small>
+                        </div>
+
+                    </a>
+                    <a href="#" class="suggestion">
+                        <div class="suggested_pic" style="background-image: url(img/photo\ \(2\).jpg);">
+                        </div>
+                        <div class="suggested_info"> 
+                            <h3>@Kangonda_21</h3>
+                            <small>Kangonda Viral</small>
+                        </div>
+
+                    </a>
+                    <a href="#" class="suggestion">
+                        <div class="suggested_pic" style="background-image: url(img/photo\ \(3\).jpg);">
+                        </div>
+                        <div class="suggested_info"> 
+                            <h3>@Evaristo_22</h3>
+                            <small>Mr. Evaristo</small>
+                        </div>
+
+                    </a>
+                    <a href="#" class="suggestion">
+                    <div class="suggested_pic" style="background-image: url(img/buka.png);">
+                    </div>
+                    <div class="suggested_info"> 
+                        <h3>@buka_app</h3>
+                        <small>Buka</small>
+                    </div>
+
+                     </a>
+                    <a href="#" class="suggestion">
+                    <div class="suggested_pic" style="background-image: url(img/photo\ \(5\).jpg);">
+                    </div>
+                    <div class="suggested_info"> 
+                        <h3>@Kativa99</h3>
+                        <small>Mantimba Kativa</small>
+                    </div>
+
+                    </a>
+                    <a href="#" class="suggestion">
+                    <div class="suggested_pic" style="background-image: url(img/photo\ \(4\).jpg);">
+                    </div>
+                    <div class="suggested_info"> 
+                        <h3>@Luana21</h3>
+                        <small>Luana Cannas</small>
+                    </div>
+
+                    </a>
+                    <a href="#" class="suggestion">
+                    <div class="suggested_pic" style="background-image: url(img/photo\ \(5\).jpg);">
+                    </div>
+                    <div class="suggested_info"> 
+                        <h3>@Kativa99</h3>
+                        <small>Mantimba Kativa</small>
+                    </div>
+
+                    </a>
+                
+                
+                </div>
+                <button class="suggested_btn">
+                    ver mais
+                </button>
+             </div>
+            <div class="discover">
+                <h3>discover</h3>
+                <div class="discover_container">
+                    <a href="#" class="recomendation">
+                        <i class="fas fa-hashtag">#NagrelhaMorreu</i>
+                    </a>
+                    <a href="#" class="recomendation">
+                        <i class="fas fa-hashtag">#MortedoNagrelha</i>
+                    </a>
+                    <a href="#" class="recomendation">
+                            <i class="fas fa-hashtag">#Buka_inovaçao</i>
+                    </a>
+                    <a href="#" class="recomendation">
+                        <i class="fas fa-hashtag">#unitel Corporativo</i>
+                     </a>
+                <a href="#" class="recomendation">
+                    <i class="fas fa-hashtag">#Code_web</i>
+                </a>
+                <a href="#" class="recomendation">
+                    <i class="fas fa-hashtag">#Africa_dance</i>
+                </a>
+                <a href="#" class="recomendation">
+                    <i class="fas fa-hashtag">#Tokozani</i>
+                </a>
+                <a href="#" class="recomendation">
+                    <i class="fas fa-hashtag">#Ciencia</i>
+                </a>
+                <a href="#" class="recomendation">
+                    <i class="fas fa-hashtag">#dance</i>
+                </a>
+                
+            </div>
+            <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+     </div>
+    
+
+     </div>
+     
+        <div class="feed">
+            <div class="post">
+                <div class="post_top">
+                    <div class="profile_pic" style="background-image: url(img/photo\ \(8\).jpg);">
+                    </div>
+                    <div class="post_info">
+                        <h3>Rosaria22 <small>sr. Rose</small></h3>
+                        <p> Comece este mês a navegar com a placa dados por 999$ que oferece 1.000Mb de net e um cartão 3G+. 
+                        E dê música aos seus amigos com o serviço Melo d'spera.</p>
+                     </div>
+                    <button class="fellow" onclick="seguir()">  aseguir </button>
+                    <button class="fellow_btn" onclick="seguir()">  seguir </button>
+                    
+                </div>
+            <div class="post_body">
+                    <video class="video_player"    width="300" height="500" controls>
+                        <source src="video/The Lifestyle.mp4">
+                    </video>
+                    <div class="actions">
+                        <ul>
+                            <a href="Conexao.html">;<button>Contribuir</button></a>
+                            <a href="#"><li>(438) Gosto</li></a>
+                            <a href="#"><li>(2346)Visualização</li></a>
+                            <a href="#"><li>Partilhar</li></a>
+                            
+                        </ul> 
+                </div>
+            </div>
+            
+            </div>
+        <div class="post">
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/unitel.jpg);">
+                </div>
+                <div class="post_info">
+                    <h3>UnitelCor <small>Unitel Corporaçao</small></h3>
+                    <p> Comece este mês a navegar com a placa dados por 999$ que oferece 1.000Mb de net e um cartão 3G+. 
+                    E dê música aos seus amigos com o serviço Melo d'spera.</p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body">
+            <video class="video_player"    width="300" height="500" controls>
+                <source src="video/Novidades Unitel T+ Julho.mp4">
+            </video>
+            <div class="actions">
+                 
+                <ul>
+                    <a href="conexaompresa.html"><button>Comprar</button></a>
+                    <a href="#"><li>(438) Gosto</li></a>
+                    <a href="#"><li>(2346)Visualização</li></a>
+                    <a href="#"><li>Partilhar</li></a>
+                    
+                </ul>
+                   
+            </div>
+             
+             
+        </div>
+        
+        </div>
+        <div class="post">
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/buka.png);">
+                </div>
+                <div class="post_info">
+                    <h3>@Buka<small>buka_app</small></h3>
+                    <p>O curso Pequeno Engenheiro da @arotec_ao Arotec, permite a crianças dos 7 aos 14 anos ter uma boa introdução ao mundo de ctem (Ciência, Tecnologias, Engenharia e Matemáticas).
+                        
+                        As crianças terão experiências práticas.</p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body">
+                <video class="video_player"    width="300" height="500" controls>
+                    <source src="video/Buka App.mp4">
+                </video>
+            <div class="actions">
+                <ul>
+                    <a href="conexaompresa.html"><button>Comprar</button></a>
+                    <a href="#"><li>(438) Gosto</li></a>
+                    <a href="#"><li>(2346)Visualização</li></a>
+                    <a href="#"><li>Partilhar</li></a>
+                    
+                </ul> 
+            </div>
+        </div>
+        
+        </div>
+        <div class="post " >
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/photo\ \(6\).jpg);">
+                </div>
+                <div class="post_info">
+                    <h3>@Ndjamba_22 <small>Djamba vula</small></h3>
+                    <p>Alguém que me disse: será para sempre, num tempo finito, será infinito em dias cronometrado, será eterno enquanto durar.</p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body" id="contribuir">
+                <video class="video_player"    width="300" height="500" controls>
+                    <source src="video/YetuShort.mp4">
+                </video>
+            <div class="actions">
+                <ul>
+                    <a href="Conexao.html"><button>Contribuir</button></a>
+                    <a href="#"><li>(438) Gosto</li></a>
+                    <a href="#"><li>(2346)Visualização</li></a>
+                    <a href="#"><li>Partilhar</li></a>
+                    
+                </ul> 
+            </div>
+        </div>
+        
+        </div>
+        <div class="post">
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/photo\ \(7\).jpg);">
+                </div>
+                <div class="post_info">
+                    <h3>@Gugu <small>Maria Ngulla</small></h3>
+                    <p> um coração com prazo de validade não eterniza sentimentos, uma mente com os mesmos padrões não eterniza memórias.</p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body">
+                <video class="video_player"    width="300" height="500" controls>
+                    <source src="video/Wedding.mp4">
+                </video>
+            <div class="actions">
+                <ul>
+                    <a href="Conexao.html">;<button>Contribuir</button></a>
+                    <a href="#"><li>(438) Gosto</li></a>
+                    <a href="#"><li>(2346)Visualização</li></a>
+                    <a href="#"><li>Partilhar</li></a>
+                    
+                </ul> 
+            </div>
+             
+             
+        </div>
+        
+        </div>
+        <div class="post">
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/unitel.jpg);">
+                </div>
+                <div class="post_info">
+                    <h3>@UNITEL <small>Unite empresa</small></h3>
+                    <p> Unite empresa o futuro é a unitel  </p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body" id="compra">
+                <video class="video_player"    width="300" height="500" controls>
+                    <source src="video/UNITEL EMPRESAS INSTITUCIONAL.mp4">
+                </video>
+                <div class="actions">
+                    <ul>
+                        <a href="Conexao.html"><button>Comprar</button></a>
+                        <a href="#"><li>(438) Gosto</li></a>
+                        <a href="#"><li>(2346)Visualização</li></a>
+                        <a href="#"><li>Partilhar</li></a>
+                        
+                    </ul> 
+               </div>
+        </div>
+        
+        </div>
+       
+        <div class="post">
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/photo\ \(9\).jpg);">
+                </div>
+                <div class="post_info" id="live">
+                    <h3>@Nanda_22 <small>Diana vyla</small></h3>
+                    <p> <h6>Em direito</h6></p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body">
+                <video class="video_player"    width="300" height="500" controls>
+                    <source src="video/Tiktok African cultural Attires #shorts.mp4">
+                </video>
+            <div class="actions">
+                <ul>
+                    <a href="Conexao.html"><button>Contribuir</button></a>
+                     <a href="#"><li>(2346)Visualização</li></a>
+                    <a href="#"><li>Partilhar</li></a>
+                    
+                </ul> 
+            </div>
+        </div>
+        
+        </div>
+        <div class="post">
+            <div class="post_top">
+                <div class="profile_pic" style="background-image: url(img/photo\ \(8\).jpg);">
+                </div>
+                <div class="post_info">
+                    <h3>@maria2 <small>maria Maria</small></h3>
+                    <p>Alguém que me disse: será para sempre, num tempo finito, será infinito em dias cronometrado, será eterno enquanto durar.</p>
+                 </div>
+                <button class="fellow_btn">  seguir </button> 
+            </div>
+        <div class="post_body">
+                <video class="video_player"    width="300" height="500" controls>
+                    <source src="video/paisagem.mp4">
+                </video>
+            <div class="actions">
+                <ul>
+                    <a href="Conexao.html"><button>Contribuir</button></a>
+                    <a href="#"><li>(438) Gosto</li></a>
+                    <a href="#"><li>(2346)Visualização</li></a>
+                    <a href="#"><li>Partilhar</li></a>
+                    
+                </ul> 
+            </div>
+        </div>
+        
+        </div>
+        </div>
+         
+     </div>
+     <script>
+        const suggestedCont = document.querySelector(
+            '.suggested_container')
+        const suggestedBtn = document.querySelector(
+            '.suggested_btn')
+
+        suggestedBtn.addEventListener('click',()=>{
+            suggestedCont.classList.toggle('expanded')
+
+            if (suggestedCont.classList.contains('expanded')) {
+                suggestedBtn.innerHTML= 'ver menos'
+            }else{
+                suggestedBtn.innerHTML = 'ver mais'
+            }
+        })
+    </script>
+     
+   </body>
+</html>

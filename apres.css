@@ -1,0 +1,195 @@
+ 
+ .bar .filho{
+   background-color: rgb(255, 123, 0);
+     height: 300px;
+     width: 100%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+ 
+  }
+ .titulo{
+    color: white;
+    font-size: 30px;
+    padding-left: 2%;
+ }
+ .item{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+   }
+ .button{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(95, 71, 41, 0.548);
+    cursor: pointer;
+  }
+  
+    .bar img{
+    position: absolute;
+    top: 8vh;
+    left: 35%;
+    width: 30%;
+    height: 80vh;
+    border-top: 30px solid black;
+    border-bottom: 30px solid black;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    }
+    hr{
+      border: none;
+      border-bottom: solid rebeccapurple;
+      width: 30%;
+      
+
+   }
+    .titulo1{
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+    }
+    .para{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .titulo2{
+        display: flex;
+         justify-content: center;
+     }
+     .parceiro{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        font-size: 20px;
+        margin: 0 auto;
+     }
+     footer{
+        background-color: rgb(90, 87, 87);
+     }
+     .para ul{
+        color: white;
+        list-style: none;
+        font-size: 25px;
+        padding-left: 30%;
+        
+      
+     }
+     .para li{
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      border: none;
+     }
+     .assinatura{
+        background-color: black;
+        color: white;
+        height: 40px;
+        padding-left: 30px;
+     }
+     @media screen and (max-width: 900px){
+      .bar .filho{
+         height: 200px;
+         }
+         .item h2{
+            font-size: 20px;
+            
+         }
+         .item .button{
+           font-size: 12px;
+         }
+         
+         .filho img{
+            height: 290px;
+            width: 240px;
+            border: 5px solid;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+         }
+         hr{
+            border: none;
+            border-bottom: solid rebeccapurple;
+            width: 30%;
+            
+
+         }
+         .titulo1 h2{
+            font-size: 16px;
+            text-align: center;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         .para{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        .parceiro{
+         display: flex;
+         flex-direction: column;
+         
+         width: 100%;
+         font-size: 20px;
+         margin: 0 auto;
+      }
+     }
+     @media screen and (max-width: 412px){
+      .bar .filho{
+         height: 100px;
+         }
+         .item h2{
+            font-size: 20px;
+            
+         }
+         .item .button{
+           font-size: 12px;
+         }
+         
+         .filho img{
+            height: 100px;
+            width: 100px;
+            border: 5px solid;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+         }
+         hr{
+            border: none;
+            border-bottom: solid rebeccapurple;
+            width: 30%;
+            
+
+         }
+         .titulo1 h2{
+            font-size: 16px;
+            text-align: center;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         .para{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        .parceiro{
+         display: flex;
+         flex-direction: column;
+         
+         width: 100%;
+         font-size: 20px;
+         margin: 0 auto;
+      }
+     }
+     

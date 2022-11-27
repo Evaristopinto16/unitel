@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(143, 145, 148);
+ }
+ .pai
+ { 
+    background-image: url(panodefundo/panoAfricano.jpg);
+    display: flex;
+     
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+ .pai h1{
+ background-image: url(img/yetu.jpg);
+ background-size: 60px;
+ height: 60px;
+ border-radius: 40px;
+ padding-top: 30px;
+ font-family: arial;
+ font-size: 25px;
+ }
+ .pai ul{
+     
+    margin-right: 40px;
+    padding-right: 30px;
+    height: 50px;
+ }
+ .pai a{
+    color: white;
+     
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 9px;
+    font-size: 22px;
+    background-color: rgb(68, 66, 62);
+  }
+  .pai2 h2{
+    margin-top: 90px;
+    text-align: center;
+    
+  }
+  .filho1{
+    margin-left: 40%;
+    margin-right: 30%;
+    background-color: rgba(19, 19, 18, 0.116);
+    
+  }
+  .filho1 form{
+    
+    height: 50px;
+    
+  }
+  .filho1 input{
+    height: 30px;
+    width: 100%;
+   border-radius: 10px;
+    
+  }
+  .filho1 .btn{
+    color: rgb(161, 28, 10);
+     margin-left: 40%;
+     width: 30%;
+     border: 1px solid white;
+     border-radius: 15px;
+     font-size: 100%;
+     background-color: transparent;
+  }
+  footer{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 160px;
+    margin-top: 10%;
+    
+  }
+  footer ul{
+    display: flex;
+    font-size: none;
+    margin-top: 3%;
+   justify-content: center;
+  }
+  footer a{
+    margin-top: 4%;
+     list-style: none;
+     text-align: center;
+     padding-left: 20px;
+     color: white;
+   }
+  

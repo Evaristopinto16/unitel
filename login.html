@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YetuShort</title>
+    <link rel="stylesheet" href="loginIndex.css">
+</head>
+<body>
+    <script>
+        function funcao(){
+            var valor = document.getElementById('email').value;
+            
+            document.getElementById('resulta').innerHTML=valor;
+        }
+    </script>
+    <header>
+        <div class="pai">
+            <h1>YetuShort</h1>
+              <ul>
+                <a href="home.html">Pagina Inicial</a>
+                <a href="#">Criar Conta</a>
+             </ul>
+        </div>
+    </header>
+    <nav>
+        <div class="pai2">
+            <h2>INICIAR SESSÃO</h2>
+            <div class="filho1">
+                
+                <h3>Digite o email</h3>
+                <form>
+                    <input type="email" id="email">
+                </form>
+                 <h3>Digite a palavra passe</h3>
+                <form>
+                    <input type="password">
+                </form>
+                <a href="acessadi.html" onclick="funcao"><button class="btn" >Entrar</button></a>
+            </div>
+        </div>
+    </nav>
+    <footer >
+        <ul>
+            <a><li>Ajuda e Contacto</li></a>
+            <a><li>Segurança</li></a>
+            <a href="aprentacao.html"><li>Denunciar conteudo improprio</li></a>
+        </ul>
+     </footer>
+</body>
+</html>
